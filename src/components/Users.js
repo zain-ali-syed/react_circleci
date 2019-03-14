@@ -21,7 +21,7 @@ class Users extends Component {
         {users.map(user => (
           <div key={user.email}>
             <div data-testid="first_name">{user.name}</div>
-            <div data-testid="email">{user.email}2</div>
+            <div data-testid="email">{user.email}</div>
             <hr />
           </div>
         ))}
