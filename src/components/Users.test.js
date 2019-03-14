@@ -35,5 +35,5 @@ test('<Users /> when results load successfully', async () => {
   expect(queryByTestId('loading')).toBeFalsy();
 
   expect(getByTestId('first_name').textContent).toBe(user.name);
-  // expect(getByTestId('email').textContent).toBe(user.email);
+  expect(getByTestId('email').textContent).toBe(user.email);
 });
