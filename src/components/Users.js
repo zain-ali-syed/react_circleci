@@ -20,7 +20,7 @@ class Users extends Component {
         <h3 data-testid="title">Users List</h3>
         {users.map(user => (
           <div key={user.email}>
-            <div data-testid="first_name">{user.name}</div>
+            <div data-testid="first_name">{user.name}1</div>
             <div data-testid="email">{user.email}</div>
             <hr />
           </div>
