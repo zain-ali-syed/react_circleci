@@ -17,7 +17,7 @@ class Users extends Component {
     if (users.length === 0) return <div data-testid="loading">Loading..</div>;
     return (
       <div>
-        <h3 data-testid="title">Users List</h3>
+        <h3 data-testid="title">Members List</h3>
         {users.map(user => (
           <div key={user.email}>
             <div data-testid="first_name">{user.name}</div>
